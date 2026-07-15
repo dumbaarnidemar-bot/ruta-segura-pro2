@@ -46,6 +46,38 @@ mostrarResumen(expediente);
 
 function mostrarResumen(datos){
 
+const analisis = IA.analizar(datos.hechos);
+
+const eventos = timeline.generar(datos.hechos);
+
+const cronologia = document.getElementById("cronologia");
+
+if(eventos.length===0){
+
+    cronologia.innerHTML="No se detectaron fechas en el relato.";
+
+}else{
+
+    cronologia.innerHTML=eventos.map(e=>`
+
+        <p><strong>${e.anio}</strong> - ${e.descripcion}</p>
+
+    `).join("");
+
+}
+if(eventos.length===0){
+
+    cronologia.innerHTML="No se detectaron fechas en el relato.";
+
+}else{
+
+    cronologia.innerHTML=eventos.map(e=>`
+
+        <p><strong>${e.anio}</strong> - ${e.descripcion}</p>
+
+    `).join("");
+
+}
 resumen.innerHTML=`
 
 <b>Nombre:</b> ${datos.nombre}<br><br>
