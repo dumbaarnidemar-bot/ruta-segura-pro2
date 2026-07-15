@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ruta Segura Pro</title>
+
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/theme.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<h1>Ruta Segura Pro</h1>
+
+<p>
+Preparación inteligente para solicitudes de protección internacional.
+</p>
+
+</header>
+
+<main>
+
+<section class="hero">
+
+<h2>Bienvenido</h2>
+
+<p>
+
+Esta aplicación te ayuda a preparar tu expediente para presentarlo
+ante las autoridades migratorias mexicanas.
+
+</p>
+
+<button id="btnComenzar">
+
+Comenzar expediente
+
+</button>
+
+</section>
+
+<section class="cards">
+
+<div class="card">
+
+<h3>📄 Expediente</h3>
+
+<p>
+
+La IA organizará automáticamente tu historia.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🗓 Cronología</h3>
+
+<p>
+
+Genera automáticamente la línea del tiempo.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🎤 Entrevista</h3>
+
+<p>
+
+Practica antes de acudir a COMAR.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>📍 Directorio</h3>
+
+<p>
+
+Encuentra oficinas y organizaciones de apoyo.
+
+</p>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<p>
+
+Ruta Segura Pro © 2026
+
+</p>
+
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
