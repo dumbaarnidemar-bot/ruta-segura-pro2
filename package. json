@@ -1,0 +1,10 @@
+{
+  "name": "ruta-segura-pro",
+  "version": "1.0.0",
+  "description": "Asistente inteligente para preparación de solicitudes de refugio en México.",
+  "author": "Odismar",
+  "license": "MIT",
+  "scripts": {
+    "start": "node backend/server.js"
+  }
+}
