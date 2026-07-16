@@ -1,23 +1,7 @@
-export default function App(){
+import AppRouter from "./router/AppRouter";
 
-return(
+export default function App() {
 
-<div>
-
-<h1>
-
-Ruta Segura Pro
-
-</h1>
-
-<p>
-
-Versión React 2.0
-
-</p>
-
-</div>
-
-);
+    return <AppRouter />;
 
 }
