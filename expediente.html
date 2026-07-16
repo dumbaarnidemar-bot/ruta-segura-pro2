@@ -37,30 +37,56 @@
 
 <h2>Asistente Inteligente</h2>
 
-<p id="preguntaIA">
+<div id="chatContainer" class="chat-container"></div>
 
-¿Por qué saliste de tu país?
-
-</p>
+<div class="chat-input">
 
 <input
-
 type="text"
-
 id="respuestaIA"
-
-placeholder="Escribe aquí...">
+placeholder="Escribe tu respuesta...">
 
 <button
-
 type="button"
-
 id="btnResponder">
 
-Responder
+Enviar
 
 </button>
 
+</div>
+
+</section>
+
+<section class="panel">
+
+<h2>Calidad del Expediente</h2>
+
+<div class="score-card">
+
+<div class="score-item">
+<div>Claridad</div>
+<div id="claridadScore" class="score-value">0%</div>
+</div>
+
+<div class="score-item">
+<div>Coherencia</div>
+<div id="coherenciaScore" class="score-value">0%</div>
+</div>
+
+<div class="score-item">
+<div>Cronología</div>
+<div id="cronologiaScore" class="score-value">0%</div>
+</div>
+
+<div class="score-item">
+<div>Evidencias</div>
+<div id="evidenciasScore" class="score-value">0%</div>
+</div>
+
+</div>
+
+</section>
 </section>
 <form id="expedienteForm">
 
